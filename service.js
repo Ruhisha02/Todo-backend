@@ -138,8 +138,6 @@ app.put('/task/:id', async (req, res) => {
 
 app.delete('/task/:id', async (req, res) => {
   try {
-  
-
     const deleteTask = await prisma.task.delete({
       where: { id: parseInt(req.params.id) }, 
       
