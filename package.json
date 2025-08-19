@@ -1,9 +1,9 @@
 {
   "name": "todo-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "service.js",
   "scripts": {
-     "start": "node index.js",
+     "start": "node service.js",
   "postinstall": "prisma generate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
